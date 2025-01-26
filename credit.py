@@ -82,8 +82,6 @@ is_fraudulent = max_amount_row['Class'].values[0]
 print(f"The maximum transaction amount is {max_amount}, and it is {'fraudulent' if is_fraudulent else 'legitimate'}.")
 
 
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Create a bar chart
 plt.figure(figsize=(6, 4))
